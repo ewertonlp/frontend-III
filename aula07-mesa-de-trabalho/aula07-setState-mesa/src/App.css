@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    border: 1px solid rgba(119, 119, 119, 0.1);
+    padding: 4rem 2rem;
+    background-color: rgb(212, 221, 221);
+}
+
+.app h3 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.app button {
+    background-color: rgba(0,0,0, 0.4);
+    padding: 1rem 1.5rem;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: none;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.app button:hover {
+    background-color: rgba(0,0,0, 0.8);;
+}
+
+.app ul {
+    font-size: 1.15rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
